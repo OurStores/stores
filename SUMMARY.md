@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Our Stores](README.md)
+* [Stores](README.md)
