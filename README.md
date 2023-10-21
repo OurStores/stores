@@ -1,3 +1,5 @@
+[![Quarto Publish](https://github.com/OurStores/stores/actions/workflows/publish.yml/badge.svg)](https://github.com/OurStores/stores/actions/workflows/publish.yml)
+
 stores
 # Stores
 
