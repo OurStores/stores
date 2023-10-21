@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Stores"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - stores.qmd
+  sidebar:
+    - title: "Home"
+      style: "docked"
+      background: light
+      contents:
+        - text: "---"
+        - stores.qmd        
+        - text: "---"
+        - stores/123.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: auto
